@@ -68,7 +68,7 @@ class Exp_Informer(Exp_Basic):
             'WTH':Dataset_Custom,
             'ECL':Dataset_Custom,
             'Solar':Dataset_Custom,
-            'custom':Dataset_Custom,
+            'rain_raj':Dataset_Custom,
         }
         Data = data_dict[self.args.data]
         timeenc = 0 if args.embed!='timeF' else 1
