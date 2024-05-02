@@ -223,7 +223,7 @@ class Dataset_Custom(Dataset):
         df_raw.columns: ['date', ...(other features), target feature]
         '''
         cols = list(df_raw.columns);
-        print(cols)
+        #print(cols)
         if self.cols:
             cols=self.cols.copy()
             cols.remove(self.target)
